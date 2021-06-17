@@ -7,5 +7,11 @@ To execute the chatbot
   python webapp.py
 3.The following in=mahe will display
 ![readme 2](https://user-images.githubusercontent.com/48292503/122414016-746fc400-cfa4-11eb-844e-3ef483602d9c.PNG)
+
+
+
 4.The chatbot app will display in browser
+
+![readme 1](https://user-images.githubusercontent.com/48292503/122414259-9ff2ae80-cfa4-11eb-9e32-1359d17827ac.PNG)
+
 
