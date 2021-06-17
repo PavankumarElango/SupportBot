@@ -1,0 +1,106 @@
+version: "2.0"
+stories:
+
+
+
+# - story: happy path
+  # steps:
+  # - intent: greet
+  # - action: utter_greet
+  # - intent: mood_great
+  # - action: utter_happy
+
+# - story: sad path 1
+  # steps:
+  # - intent: greet
+  # - action: utter_greet
+  # - intent: mood_unhappy
+  # - action: utter_cheer_up
+  # - action: utter_did_that_help
+  # - intent: affirm
+  # - action: utter_happy
+
+# - story: sad path 2
+  # steps:
+  # - intent: greet
+  # - action: utter_greet
+  # - intent: mood_unhappy
+  # - action: utter_cheer_up
+  # - action: utter_did_that_help
+  # - intent: deny
+  # - action: utter_goodbye
+  
+- story: no answers
+  steps:
+  - intent: noanswer
+  - action: utter_noanswer
+  
+  
+- story: options
+  steps:
+  - intent: options
+  - action: utter_options
+  
+- story: password
+  steps:
+  - intent: Password_Reset
+  - action: utter_Password_Reset
+  
+- story: E-mail_ids
+  steps:
+  - intent: E-mail_id
+  - action: utter_E-mail_id
+  
+- story: Slow_Internet
+  steps:
+  - intent: Slow_Internet
+  - action: utter_Slow_Internet
+  
+  
+- story: USB_problem
+  steps:
+  - intent: USB
+  - action: utter_USB
+  
+- story: Mouse_problem
+  steps:
+  - intent: Mouse
+  - action: utter_Mouse
+  
+  
+- story: Virus_problem
+  steps:
+  - intent: Virus
+  - action: utter_Virus
+  
+- story: Vague_problem
+  steps:
+  - intent: Vague
+  - action: utter_Vague
+- story: Printing_problem
+  steps:
+  - intent: Printing_issues
+  - action: utter_Printing_issues
+  
+- story: shutdown_problem
+  steps:
+  - intent: Unexpected_ShutDown
+  - action: utter_Unexpected_ShutDown
+  
+- story: Slow_Computer_problem
+  steps:
+  - intent: Slow_Computer
+  - action: utter_Slow_Computer
+  
+  
+  
+  
+  
+  
+
+
+          
+ 
+ 
+    
+   

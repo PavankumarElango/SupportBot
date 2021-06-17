@@ -1,0 +1,128 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- noanswer:
+    use_entities: true
+- option:
+    use_entities: true
+- Password_Reset:
+    use_entities: true
+- E-mail_id:
+    use_entities: true
+- Slow_Internet:
+    use_entities: true
+- USB:
+    use_entities: true
+- Mouse:
+    use_entities: true
+- virus:
+    use_entities: true
+- Vague:
+    use_entities: true
+- Printing_issues:
+    use_entities: true
+- Unexpected_ShutDown:
+    use_entities: true
+- Slow_Computer:
+    use_entities: true
+- Virus:
+    use_entities: true
+- options:
+    use_entities: true
+- deny:
+    use_entities: true
+- affirm:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_E-mail_id:
+  - text: The reset pin has been sent on your registered mobile number
+  utter_Mouse:
+  - text: |-
+      a) If you encounter a mouse problem, you should first try these options:
+      1) If it is a first-time issue, restarting your PC can resolve the issue instantly.
+      2) Confirm that the mouse or the wireless adaptor is firmly connected to the PC.
+      3) You may also try to unplug the mouse cable or the wireless adaptor and reconnect using a different port.
+      4)Check the mouse and the ports for damages and even try the mouse on a different computer.
+      4 If none of these solves the problem, you can now proceed to other solutions.
+      b) Troubleshoot Hardware and Devices
+      c) Updating Incompatible Mouse Drivers
+      d) Roll Back or Reinstall Mouse Drivers
+      e) Deactivate Enhanced Pointer Precision
+      f) Adjusting the Mouse Sensitivity
+      g) Configure Touchpad Delay
+      h) Disable Touchpad
+  utter_Password_Reset:
+  - text: Confirm your email address
+  utter_Printing_issues:
+  - text: Check the printer is turned on, has paper, has ink/toner, paper in the correct tray etc.
+  utter_Slow Internet:
+  - text: If you are connecting wirelessly, then the location may be the problem. The signal is not necessarily strong in all corners of the building. Similarly, you could just be too far away. If this is not the issue, then spyware or viruses are a likely cause.
+  utter_Slow_Internet:
+  - text: If you're connecting wirelessly, then the location may be the problem. The signal is not necessarily strong in all corners of the building. Similarly, you could just be too far away. If this is not the issue, then spyware or viruses are a likely cause.
+  utter_Slow_Computer:
+  - text: |-
+      Here are my 10 quick tips for things you can do to speed up your PC
+      1. Cut down on start-up items
+      2. Uninstall programs you no longer use
+      3. Clean up your hard drive
+      4. Clean your browser
+      5. Scan for and remove malware
+      6. Adjust for better performance
+      7. Defrag your hard drive
+      8. Add more RAM.
+      9. Upgrade to an SSD drive
+      10. Don’t shut down, use Hibernate
+  utter_USB:
+  - text: |-
+      First things to check are:
+      1) Does the device work in a different USB port on the machine?
+      2) Are other devices recognised in that port?
+      3) Does the device work on another user’s machine?
+       If you have tried these troubleshooting methods and still no luck, then your IT support help-desk can proceed with some more in-depth troubleshooting.
+  utter_Unexpected_ShutDown:
+  - text: This could be related to overheating. Check your computer for dust, and make sure it is in a cool and ventilated place. If this is not the issue, then it is likely a virus problem. Disconnect the PC from any networks and call your IT Support experts!
+  utter_Vague:
+  - text: |-
+      Hey, I cant seems that you have not listed you Issue here.
+       I can help you out with the following issues: 
+       1)Password Reset
+       2) Trouble-Shooting issues
+       3) Virus Issues 
+       4)Printing Issues and many more IT issues
+  utter_Virus:
+  - text: |-
+      A detailed step by step guide to remove the virus from the computer has been provided on the following link: 
+      https://www.easeus.com/file-recovery/remove-virus-without-antivirus.html 
+      and
+      https://www.pcworld.com/article/243818/how-to-remove-malware-from-your-windows-pc.html
+      If the issues are still there, consult the IT team
+  utter_noanswer:
+  - text: Sorry, can't understand you.
+  utter_options:
+  - text: |-
+      I can guide you through
+       1)Password Reset
+      2) Trouble-Shooting issues
+      3) Virus Issues
+      4) Printing Issues
+      5) many more IT issues, Offering support for 
+      1) Password Reset
+      2) Trouble-Shooting issues
+      3) Virus Issues
+      4) Printer issues
+      5) Other IT tasks
+actions: []
+forms: {}
+e2e_actions: []

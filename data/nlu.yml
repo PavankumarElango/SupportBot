@@ -1,0 +1,191 @@
+version: "2.0"
+
+nlu:
+# - intent: greet
+  # examples: |
+    # - hey
+    # - hello
+    # - hi
+    # - hello there
+    # - good morning
+    # - good evening
+    # - moin
+    # - hey there
+    # - let's go
+    # - hey dude
+    # - goodmorning
+    # - goodevening
+    # - good afternoon
+
+# - intent: goodbye
+  # examples: |
+    # - good afternoon
+    # - cu
+    # - good by
+    # - cee you later
+    # - good night
+    # - bye
+    # - goodbye
+    # - have a nice day
+    # - see you around
+    # - bye bye
+    # - see you later
+    
+       
+- intent: noanswer
+  examples: |
+    - q
+    - random
+    
+- intent: options
+  examples: |
+    - How you could help me?
+    - What you can do?    
+    - What help you provide?
+    - How you can be helpful?
+    - What support is offered?
+    - What services do you provide?
+    - What can you help me with
+    
+- intent: Password_Reset
+  examples: |
+    - How to reset my password?
+    - I’m unable to log in!
+    - My Password is Lost
+    - need to Reset.
+    - Open password reset module
+    - Reset my password
+    - Forgot password
+    - how do i reset my password?
+    - Hi,I have problem with my password?
+    - Problem with Login ID
+
+
+- intent: E-mail_id
+  examples: |
+    - @gmail.com
+    - @outlook.com
+    - @yahoo.com
+    - @hotmail.in
+ 
+- intent: Slow_Internet
+  examples: |
+    - My internet is really slow!
+    - slow internet
+    - Cannot connect to Internet
+    - Internet is not fast 
+    - My Wi-Fi keeps dropping
+    
+    
+- intent: USB
+  examples: |
+    - My computer does not recognise my USB device!
+    - Okay so i need help with pendrive
+    - Cannot connect to Internet
+    - USB issues
+    - Pendrive issues  
+    - pendrive is not detected    
+
+- intent: Mouse
+  examples: |
+    - My Mouse is not working
+    - The mouse is dead
+    - Bluetooth mouse not working
+    - Mouse issues
+    - trackpad not working  
+    - pendrive is not detected   
+    - I need help with trackpad problems
+
+
+- intent: Virus
+  examples: |
+    - I have virus in my laptop
+    - Virus issues
+    - Computer has a virus
+    - I have problems
+    
+- intent: Vague
+  examples: |
+    - Nothing works
+    - I need Help
+    - I have issues
+    - I have problems    
+- intent: Printing_issues
+  examples: |
+    - I can’t print anything!
+    - Printing issue
+    - My printer isn’t printing
+    - Can’t seem to use my department’s printer 
+- intent: Unexpected_ShutDown
+  examples: |
+    - My computer just shut down unexpectedly!
+    - computer shut down unexpected
+    - Computer keeps shutting down
+    - computer shutdown
+    - pc shutdown   
+
+- intent: Slow_Computer
+  examples: |
+    - Slow Computer
+    - My computer is running too slowly!
+    - Computer is not fast
+        
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
