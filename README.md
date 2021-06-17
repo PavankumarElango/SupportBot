@@ -5,7 +5,7 @@ To execute the chatbot
 1.open Command prompt
 2.Run the file webapp.py using the below code
   python webapp.py
-3.The following in=mahe will display
+3.after that
 ![readme 2](https://user-images.githubusercontent.com/48292503/122414016-746fc400-cfa4-11eb-844e-3ef483602d9c.PNG)
 
 
