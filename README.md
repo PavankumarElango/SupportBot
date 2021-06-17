@@ -12,7 +12,8 @@ To execute the chatbot
 
 
 3.after that 
-![readme 2](https://user-images.githubusercontent.com/48292503/122414016-746fc400-cfa4-11eb-844e-3ef483602d9c.PNG) \n
+
+![readme 2](https://user-images.githubusercontent.com/48292503/122414016-746fc400-cfa4-11eb-844e-3ef483602d9c.PNG) 
 
 
 4.The chatbot app will display in browser\n
